@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    
+    <string name="appwidget_configure_instructions">What XPL message would you like to send?</string>
+    <string name="application_label">xPL Widget</string>
+    <string name="configure_instructions_header">This will create a widget that will send an arbitrary xPL message when you click on it. Currently, the message you enter is not checked for validity.</string><string name="configure_instructions_name">What label should appear below your widget?</string>
+    <string name="configure_default_name">Lamp</string><string name="configure_instructions_message">What xPL message would you like to send?</string>
+    
+    <string name="configure_default_message">xpl-cmnd\n{\nhop=1\nsource=smgpoe-lamp.1\ntarget=smgpoe-lamp.1\n}\ncontrol.basic\n{\ndevice=pwm\ntype=variable\ncurrent=127\n}\n</string>
+    <string name="configure_clear_button">Clear</string>
+    <string name="appwidget_text_mainname">xPL</string>
+    <string name="appwidget_text_tempdesc">.</string>
+    <string name="app_description">A simple widget that will send an xPL message over wifi when clicked.</string>
+    
+    
+</resources>
