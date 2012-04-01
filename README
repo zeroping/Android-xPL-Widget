@@ -1,0 +1,5 @@
+This is a simple widget that will send an xPL message over wifi when clicked. The xPL message is completely configurable and is not checked for validity.
+For more information on the xPL protocol, see:
+http://xplproject.org.uk/
+
+This project is done in Eclipse, so it should work as an Eclipse project.
